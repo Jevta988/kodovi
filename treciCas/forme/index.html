@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forme</title>
+</head>
+<body>
+
+    <form action="">
+
+        <fieldset>
+            <legend>Podaci o ispitaniku</legend>
+
+            <label>ime: </label>
+            <input type="text" value="ana">
+  
+            <br>
+
+            <label>Prezime</label>
+            <input type="text" placeholder="antic">
+ 
+            <br>
+
+            <label>Skola</label>
+            <input type="text" placeholder="ITbootcamp" disabled>
+  
+            <br>
+
+            <label>Sifra</label>
+            <input type="password" name="" id="">
+    
+            <br>
+
+            <label>godina rodj</label>
+            <input type="number" min="1900" max="3000" step="1">
+
+            <br>
+
+            <label>Datum putovanja</label>
+            <input type="date" min="2020-06-01" max="2020-09-01" step="7">
+
+            <br>
+
+            <label >Odaberite pol</label>
+            <input type="radio" name="pol" checked >neopredeljen
+            <input type="radio" name="pol" >Muski
+            <input type="radio" name="pol" >Zenski
+            
+            <br>
+
+            <label>moje vestine</label>
+            <input type="checkbox" name="vestine" id="">HTML
+            <input type="checkbox" name="vestine" id="">css
+            <input type="checkbox" name="vestine" id="">js
+
+            <br>
+
+            <label >Label</label>
+            <input type="file" >
+            
+            
+
+        </fieldset>
+
+        <fieldset>
+            <legend>Ostale informacije</legend>
+
+            <label >Odaberite kurs</label>
+            <select>
+                <optgroup label="NIS">
+                    <option value="">php</option>
+                    <option value="">js</option>
+                    <option value="">qa</option>
+                </optgroup>
+                <optgroup label="Beograd">
+                    <option value="">qa</option>
+                    <option value="">js</option>
+                    <option value="">java</option>
+                </optgroup>
+            </select>
+        </fieldset>
+
+        <input type="submit" value="Posalji">
+        <input type="reset" value="resetuj">
+
+        <!-- razlike izmedju dugmeta i input-dugmeta nema,
+        kasnije se dodaje action u javascript pa se tu pravi razlika -->
+
+        <input type="button" value="klikni" onclick=alert("zdravo")>
+        <button>dugme</button>
+
+
+    </form>
+
+</body>
+</html>

@@ -1,0 +1,23 @@
+
+
+#prvi, #drugi{
+    box-sizing: border-box;
+    display: inline-block;
+    border: 1px solid black;
+}
+
+#prvi{
+    background-color: aquamarine;
+    width: 45%;
+    height: 10px;
+    margin: 5px;
+    padding-right: 120px;
+}
+
+#drugi{
+    background-color: burlywood;
+    width: 45%;
+    height: 10px;
+    margin: 5px;
+    padding-right: 120px;
+}

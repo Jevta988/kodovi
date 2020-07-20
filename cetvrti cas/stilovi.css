@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    position: relative;
+    margin-top: 20px;
+    overflow: hidden;
+}
+
+
+p {
+    background-color: darkgreen;
+    width: 150px;
+    float: left;
+}
+
+p:nth-child(3) {
+    float: right; 
+}
+
+nav {
+    position: fixed;
+    top:0;
+    right: 0;
+    width: 100%;
+}
+
+ul {
+    background-color: darkgrey ;
+    position: relative;
+    width: 100%;
+    top:0;
+    overflow: hidden;
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+li{
+    
+    
+    width: 24.8%;
+    border: 1px solid black;
+    float: left;
+}
+
+li:nth-child(2){
+    background-color: brown;
+}

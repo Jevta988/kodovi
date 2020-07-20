@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #d1{
+            background-color: chocolate;
+            width: 500px;
+            position: relative;
+            top:20px;
+            left: 50px;
+        }
+        #d2{
+            position: absolute;
+            top: 22px;
+            left: 13px;
+            background-color: brown;
+            width: 700px;
+        }
+        #d3 {
+            background-color: cadetblue;
+            width: 590px;
+            height: 200px;
+            position: relative;
+            top: 50px;
+            left: 90px;
+        }
+        #d3 span {
+            position: absolute;
+            right: 70px;
+        }
+
+        #d4{
+            background-color: darkblue;
+            width: 500px;
+            height: 50px;
+            margin: 0 auto;
+            position: relative;
+            z-index: 100;
+        }
+    </style>
+</head>
+<body>
+    <div id="d1">Tekst1</div>
+    <div id="d2">Tekst2</div>
+    <div id="d3">
+        <span>Neki tekst</span>
+    </div>
+    <div id="d4">
+        tralala
+    </div>
+</body>
+</html>
