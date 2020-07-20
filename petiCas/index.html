@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>meni</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        #gornji ul {
+            overflow: hidden;
+            list-style-type: none;
+            padding: 0;
+            background-color: brown;
+        }
+
+        #gornji ul li {
+            float: left;
+            width: 25%;
+            text-align: center;
+        }
+
+        #gornji ul li a {
+            color: white;
+            text-decoration: none;
+            padding: 14px;
+            display: block;
+        }
+        #gornji ul li a:hover {
+            background-color: chocolate;
+        }
+
+        .meni {
+            position: absolute;
+            background-color: coral;
+            width: 25%;
+            display: none;
+        }
+
+        .padajuci:hover .meni {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <nav id="gornji">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Our mission</a></li>
+            <li><a href="#">Our customer</a></li>
+            <li class="padajuci">
+                <a href="#">Our ingredients</a>
+                <div class="meni">
+                    <a href="#">pera pera</a>
+                    <a href="#">mika mika</a>
+                    <a href="#">zika zika</a>
+                </div>
+
+            
+            </li>
+        </ul>
+    </nav>
+</body>
+</html>
